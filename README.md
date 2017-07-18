@@ -21,7 +21,7 @@ yum install docker-ce
 ```
 ## 2. Dockerfileをbuildする
 ```
-docker build -t streaming-server .
+docker build -t <イメージ名>:<タグ名> .
 ```
 
 ## 3. できたコンテナを動かす
